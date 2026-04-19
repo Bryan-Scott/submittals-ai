@@ -1,0 +1,18 @@
+# Secrets — never commit these
+.env
+
+# Per-machine config (points at your local workspace path)
+config.json
+
+# Node dependencies — regenerated from package.json by `npm install`
+node_modules/
+
+# Generated outputs — regenerable from rules + inputs, not source of truth
+Projects/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

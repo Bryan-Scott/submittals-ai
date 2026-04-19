@@ -1,0 +1,16 @@
+{
+  "name": "submittals-ai",
+  "version": "1.0.0",
+  "description": "A tool that drafts construction submittal outlines from project specification PDFs and compiles the supporting product data into a single deliverable PDF package.",
+  "main": "src/cli.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.90.0"
+  }
+}

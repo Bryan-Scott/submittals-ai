@@ -71,6 +71,8 @@ Operational data belongs to the customer and must not be corrupted by code chang
 
 ## Build Roadmap
 
+See [`ROADMAP.md`](ROADMAP.md) for the detailed task list, locked design decisions with rationale, and session notes. The overview below is the high-level phase plan; `ROADMAP.md` is the operational bridge between working sessions.
+
 Each phase ships a working tool. We can stop at any phase and still have something useful.
 
 ### v0.1 — Outline Generator CLI
@@ -152,6 +154,7 @@ Intentionally open — will be resolved when needed, not speculatively:
 ## For Future Claude Code Sessions
 
 If you're an AI agent reading this to orient on the project:
+- **Read `ROADMAP.md` first.** It is the bridge between sessions — it records current build state, every locked design decision with its reasoning, and open questions. Without it, you will re-debate decisions already made.
 - The memory files at `C:\Users\Bryan\.claude\projects\c--Users-Bryan-projects-submittals-ai\memory\` capture earlier decisions and context.
 - The three reference docs in `Documents\claude workspace\Reference\` (`Standard-Submittal-Items.md`, `Manufacturer-Preferences.md`, `Submittal Outline - Master Analysis.md`) are authoritative domain knowledge — read them before proposing changes that touch rules or output format.
 - Bryan's global CLAUDE.md (at `C:\Users\Bryan\.claude\CLAUDE.md`) documents his coding preferences and learning goals. Respect them.
